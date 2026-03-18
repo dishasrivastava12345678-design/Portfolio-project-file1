@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electrician Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- GSAP for scroll animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>⚡ Electrician</h2>
+  <div>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO / HOME -->
+<section id="home" class="hero">
+  <div class="overlay">
+    <div class="hero-content">
+      <!-- Text Left -->
+      <div class="hero-text">
+        <h1>Professional Electrician</h1>
+        <p>Reliable & Affordable Electrical Services for Homes & Businesses.</p>
+      </div>
+      <!-- Profile Circle Right -->
+      <div class="hero-profile-pic">
+        <img src="c:\Users\HP\OneDrive\Pictures\file_0000000072ac71fa9a222ae24927d14c.png" alt="Profile Picture">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about-section reveal">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>Hello! I am a professional electrician with 8+ years of experience in wiring, installation, and repair work. I specialize in home and commercial electrical solutions, ensuring safety, efficiency, and reliability. My services include maintenance, troubleshooting, upgrades, and custom electrical installations to fit your unique needs.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="reveal">
+  <h2>Services</h2>
+  <div class="cards">
+    <div class="service-card">
+      <img src="https://gainr.in/uploads/post/BL3954-1702096175209learn-the-basics-of-home-electrical-wiring-coynecollege-scaled.jpeg" alt="House Wiring">
+      <p>House Wiring</p>
+    </div>
+    <div class="service-card">
+      <img src="https://apollouniverse.com/cdn/shop/products/5_41dedc1f-3ff9-41c2-88ff-b48cf07d31c8.png?v=1663509998"alt="Lighting Decoration">
+      <p>Lighting Decoration</p>
+    </div>
+    <div class="service-card">
+      <img src="https://5.imimg.com/data5/SELLER/Default/2023/2/JR/GW/EG/76765065/electrical-switch-board-repair-services.jpg" alt="Switch Repair">
+      <p>Switch Repair</p>
+    </div>
+    <div class="service-card">
+      <img src="https://api.gharpedia.com/wp-content/uploads/2019/10/Types-of-Lighting-in-Living-room-01-0514190003.jpg" alt="Inverter Setup">
+      <p>House Lighting</p>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY / SLIDER -->
+<section id="gallery" class="reveal">
+  <h2>My Work</h2>
+  <div class="slider">
+    <div class="slides" id="slides">
+        <img src="c:\Users\HP\OneDrive\Pictures\images_(2)[1].jpeg">
+        <img src="c:\Users\HP\OneDrive\Pictures\images (8).jpeg">
+        <img src="c:\Users\HP\OneDrive\Pictures\images (7).jpeg">
+        <img src="c:\Users\HP\OneDrive\Pictures\images (5).jpeg">
+        <img src="c:\Users\HP\OneDrive\Pictures\images (4).jpeg">
+        <img src="c:\Users\HP\OneDrive\Pictures\images (3).jpeg">
+    <button class="prev">❮</button>
+    <button class="next">❯</button>
+    <div class="dots" id="dots"></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="reveal contact-section">
+  <div class="contact-container">
+    <!-- Info -->
+    <div class="contact-box contact-info-box">
+      <h2>Contact Me</h2>
+      <p>📍 Noida</p>
+      <p>📞 8279491080</p>
+      <div class="contact-buttons">
+        <a href="tel:8279491080">📞 Call</a>
+        <a href="https://wa.me/918279491080">💬 WhatsApp</a>
+      </div>
+      <div class="social-links">
+        
+        <div class="social-links">
+          <div class="social-links">
+             
+            <div class="social-links">
+  <a href="https://www.facebook.com/profile.php?id=61577823381987" target="_blank">Facebook</a>
+  
+  <a href="https://www.instagram.com/voltage_victor_/" target="_blank">Instagram</a>
+</div>
+      </div>
+      <div class="map">
+        <iframe src="https://maps.google.com/maps?q=Noida&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          width="100%" height="200" frameborder="0"></iframe>
+      </div>
+    </div>
+    <!-- Form -->
+    <div class="contact-box contact-form-box">
+      <h2>Send Message</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<a href="https://wa.me/918279491080" class="whatsapp">💬</a>
+
+<script src="script.js"></script>
+</body>
+</html>
